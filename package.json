@@ -1,0 +1,14 @@
+{
+  "name": "wechatbot",
+  "version": "0.0.1",
+  "description": "agent dog for chatbot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wechaty": "^0.48.10"
+  }
+}
