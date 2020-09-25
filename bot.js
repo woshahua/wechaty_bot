@@ -1,9 +1,9 @@
 import { Wechaty } from "wechaty"
-import { PuppetPadpro } from "wechaty-puppet-padpro"
+import { PuppetPadplus } from "wechaty-puppet-padplus"
 
-const WECHATY_PUPPET_PADPRO_TOKEN = ""
+const WECHATY_PUPPET_PADPRO_TOKEN = "puppet_padplus_64e7c99ae4e1019c"
 
-const puppet = new PuppetPadpro ({
+const puppet = new PuppetPadplus ({
     token: WECHATY_PUPPET_PADPRO_TOKEN,
 })
 
