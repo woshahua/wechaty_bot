@@ -4,11 +4,18 @@
   "description": "agent dog for chatbot",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npx npm-force-resolutions",
+    "start": "babel-node bot.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "wechaty": "^0.48.10"
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "wechaty": "^0.48.10",
+    "wechaty-puppet-padpro": "^0.2.1"
+  },
+  "resolutions": {
+    "leveldown": "^5.1.1"
   }
 }
