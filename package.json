@@ -12,6 +12,7 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "electron-screenshot-service": "^4.0.3",
     "wechaty": "^0.48.10",
     "wechaty-puppet-padplus": "^0.6.6",
     "wechaty-puppet-padpro": "^0.2.1"
